@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <script src="jquery-1.9.1.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<div class="container center_div">
+    <div class="row-sm=10 col-md-offset-6">
+        <div class="col-sm-10 col-md-offset-6">
+          <!--===== Registration Form ============-->
+          <h3 class="mt-3 text text-center"> Registration Form</h3>
+          <p class="text-center" id="msg"></p>
+          <form id="registrationForm" method="post">
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="First Name" name="firstName" id="fname">
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="Last Name" name="lastName" id="lname">
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="tel" class="form-control" placeholder="phone number" name="phone" id="phone">
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="email" class="form-control" placeholder="Email Address" name="emailAddress" id="email">
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="password" class="form-control" placeholder="Password" name="password" id="password">
+              <label for="showpassword">View Password </label>
+              <input type="checkbox" id="showpassword">
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="password" class="form-control" placeholder="Confirm Password" name="confirmPassword" id="cpassword">
+              <label for="showcpassword">View Confirm Password</label>
+              <input type="checkbox" id="showcpassword">
+            </div>
+            <button type="submit" class="btn btn-primary" id="registerbtn" class="center-div">Register Now</button>
+          </form>
+          <script src="ajax-script.js"></script>
+          <!--===== Registration Form ============-->
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

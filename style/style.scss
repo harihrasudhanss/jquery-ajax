@@ -1,0 +1,45 @@
+$color:white;
+$background-color:black;
+$background-color2:rgb(164, 164, 216);
+body
+{
+    background-color: $background-color2;
+}
+p #msg
+{
+    color:$color;
+}
+a
+{
+    text-decoration: none;
+}
+.login-page
+{
+    width: 100%;
+    height:100vh;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.form-right i
+{
+    font-size: 100px;
+}
+#loginForm
+{
+    background-color: $background-color2;
+}
+label
+{
+    font-weight:bold;
+}
+.logoutbtn
+{
+    position:absolute;
+    left:100px;
+}
+#logoutbbtn
+{
+    position:absolute;
+    left:100px;
+}
